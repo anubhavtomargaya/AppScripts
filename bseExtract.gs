@@ -1,5 +1,5 @@
 function bseExtract() {
-  var ss = SpreadsheetApp.openById('1T2t3GCpoV4n5UFj1mAgToPMW9bKtqNNm-hx1FTeGlwk');
+  var ss = SpreadsheetApp.openById('###-####');
   var sheet = ss.getSheetByName('Sheet7');
   var parsedlabel = GmailApp.createLabel("bseParsed")
 
